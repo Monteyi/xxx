@@ -3,6 +3,7 @@ using DataLayer;
 using DataLayer.Model;
 using Microsoft.AspNetCore.Mvc;
 using WebServer.Models;
+//TESTasdfasdflkasdjfklasjdlklkjasdf
 
 namespace WebServer.Controllers
 {
@@ -85,7 +86,6 @@ namespace WebServer.Controllers
 
             
            _dataService.UpdateCategory(realCategory.Id, category.Name, category.Description);
-
 
 
             return Ok(realCategory);
