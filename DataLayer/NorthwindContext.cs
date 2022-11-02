@@ -6,7 +6,7 @@ namespace EF
 {
     public class NorthwindContext : DbContext
     {
-        const string ConnectionString = "host=localhost;db=northwind;uid=postgres;pwd=1234";
+        const string ConnectionString = "host=localhost;db=northwind;uid=postgres;pwd=Cl0sed12";
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
